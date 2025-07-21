@@ -8,7 +8,14 @@
 */
 
 // Add your code right below, good luck!
-
+firstName="Carlos";
+lastName="Stevenson";
+fullName=firstName+" "+lastName
+thisYear=1965;
+birthYear=1947
+age=thisYear-birthYear
+let greeting=("Hello! My name is "+fullName+" and I am "+age+" years old.")
+console.log(greeting)
 
 
 
