@@ -1,8 +1,12 @@
 const repeatString = function(text,num) {
-    if (num>0){
-        num--;
-        return text;
-        
+    let result = ''
+    if (num<0){
+        return "ERROR";
+    } else {
+        for (;num>0;num--){
+                result+=text;
+            }
+        return result;
     }
 };
 repeatString("hey",3);
